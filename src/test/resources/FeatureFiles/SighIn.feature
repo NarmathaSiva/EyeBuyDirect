@@ -8,4 +8,4 @@ Examples:
 |Username									|Password				|
 |asasi006@gmail.com				|pree0505				|
 |narmi2525@gmail.com			|pari0505				|
-|ashoksasi001@gmail.com 	|idly0505				|
+|ashoksasi001@gmail.com 	|play0505				|
