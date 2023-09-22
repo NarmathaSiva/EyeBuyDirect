@@ -1,0 +1,231 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7521057600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to signin the EyeBuyDirect application with \"parithisasi21@gmail.com\" and \"parithi2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"parithisasi21@gmail.com\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"parithi2021\"",
+                  "offset": 83
+                }
+              ],
+              "location": "SunAndEyeStep.user_has_to_signin_the_EyeBuyDirect_application_with_and(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-16T05:20:15.830Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8511434600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 26187126900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.sighIn()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate number of items in Sunglasses by using filters",
+        "description": "",
+        "id": "to-validate-sunglasses-and-eyeglasses-page;to-validate-number-of-items-in-sunglasses-by-using-filters",
+        "after": [
+          {
+            "result": {
+              "duration": 182140900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27594854100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User has to click Sunglasses",
+            "match": {
+              "location": "SunAndEyeStep.user_has_to_click_Sunglasses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15929933400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User has to select filters",
+            "match": {
+              "location": "SunAndEyeStep.user_has_to_select_filters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3070367300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has to validate the number of items displayed",
+            "match": {
+              "location": "SunAndEyeStep.user_has_to_validate_the_number_of_items_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7577496400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to signin the EyeBuyDirect application with \"parithisasi21@gmail.com\" and \"parithi2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"parithisasi21@gmail.com\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"parithi2021\"",
+                  "offset": 83
+                }
+              ],
+              "location": "SunAndEyeStep.user_has_to_signin_the_EyeBuyDirect_application_with_and(String,String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-16T05:21:44.877Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9992811200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 25581466200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.sighIn()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "To validate number of items in Eyeglasses by using filters",
+        "description": "",
+        "id": "to-validate-sunglasses-and-eyeglasses-page;to-validate-number-of-items-in-eyeglasses-by-using-filters",
+        "after": [
+          {
+            "result": {
+              "duration": 190335800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27264120400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User has to click Eyeglasses",
+            "match": {
+              "location": "SunAndEyeStep.user_has_to_click_Eyeglasses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16146430200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User has to select filters",
+            "match": {
+              "location": "SunAndEyeStep.user_has_to_select_filters()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3067229400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User has to validate the number of items displayed",
+            "match": {
+              "location": "SunAndEyeStep.user_has_to_validate_the_number_of_items_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Sunglasses and Eyeglasses Page",
+    "description": "",
+    "id": "to-validate-sunglasses-and-eyeglasses-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/SunAndEye.feature",
+    "tags": []
+  }
+]

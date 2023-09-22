@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="178.852772">
+<testcase classname="To validate Sunglasses and Eyeglasses Page" name="To validate number of items in Sunglasses by using filters" time="89.027959">
+<system-out><![CDATA[Given User has to signin the EyeBuyDirect application with "parithisasi21@gmail.com" and "parithi2021".passed
+When User has to click Sunglasses...........................................passed
+Then User has to select filters.............................................passed
+And User has to validate the number of items displayed......................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Sunglasses and Eyeglasses Page" name="To validate number of items in Eyeglasses by using filters" time="89.824813">
+<system-out><![CDATA[Given User has to signin the EyeBuyDirect application with "parithisasi21@gmail.com" and "parithi2021".passed
+When User has to click Eyeglasses...........................................passed
+Then User has to select filters.............................................passed
+And User has to validate the number of items displayed......................passed
+]]></system-out>
+</testcase>
+</testsuite>
