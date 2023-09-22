@@ -48,6 +48,24 @@ public class BaseClass {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 	}
+	public static void launchBrowser(String browser) {
+		if (browser.equalsIgnoreCase("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		}
+		if (browser.equalsIgnoreCase("firefox")){
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		}
+		if (browser.equalsIgnoreCase("edge")){
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		}
+		if (browser.equalsIgnoreCase("ie")){
+			WebDriverManager.iedriver().setup();
+			driver = new InternetExplorerDriver();
+		}
+	}
 	public static void getPageTitle() {
 		String title = driver.getTitle();
 		System.out.println("Page Title : "+title);
