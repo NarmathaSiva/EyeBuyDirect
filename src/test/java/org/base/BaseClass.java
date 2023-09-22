@@ -109,6 +109,14 @@ public class BaseClass {
 		}
 	}
 
+	public static void toUpThePage(int num) {
+		a = new Actions(driver);
+		
+		for(int i=0; i<num;i++) {
+			a.keyDown(Keys.ARROW_UP).keyUp(Keys.ARROW_UP).build().perform();
+		}
+	}
+
 	public void scrollTheMouse(WebElement element) {
 		a.scrollToElement(element).perform();
 	}
