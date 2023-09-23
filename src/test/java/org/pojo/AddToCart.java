@@ -32,6 +32,9 @@ PageFactory.initElements(driver, this);
 	@FindBy(xpath="//button[text()='Confirm & add to cart']")
 	private WebElement addTocart;
 
+	@FindBy(xpath="//a[@title='Favorites']")
+	private WebElement wishList;
+
 	public WebElement getFirstProduct() {
 		return firstProduct;
 	}
@@ -58,6 +61,10 @@ PageFactory.initElements(driver, this);
 
 	public WebElement getAddTocart() {
 		return addTocart;
+	}
+
+	public WebElement getWishList() {
+		return wishList;
 	}
 	
 }
