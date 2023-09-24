@@ -35,6 +35,9 @@ PageFactory.initElements(driver, this);
 	@FindBy(xpath="//a[@title='Favorites']")
 	private WebElement wishList;
 
+	@FindBy(xpath="//a[@title='Favorites']")
+	private WebElement wishList;
+
 	public WebElement getFirstProduct() {
 		return firstProduct;
 	}
@@ -61,6 +64,10 @@ PageFactory.initElements(driver, this);
 
 	public WebElement getAddTocart() {
 		return addTocart;
+	}
+
+	public WebElement getWishList() {
+		return wishList;
 	}
 	
 }
