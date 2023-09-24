@@ -48,6 +48,7 @@ PageFactory.initElements(driver, this);
 	public WebElement getSighIn1() {
 		return sighIn1;
 	}
+	
 	public WebElement getShopNow(){
 		return shopNow;
 	}
