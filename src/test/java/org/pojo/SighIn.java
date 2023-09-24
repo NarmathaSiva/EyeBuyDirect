@@ -28,7 +28,7 @@ PageFactory.initElements(driver, this);
 
 	@FindBy(xpath="//a[text()='Shop now']")
 	private WebElement shopNow;
-	
+
 	public WebElement getPopUp() {
 		return popUp;
 	}
@@ -51,5 +51,5 @@ PageFactory.initElements(driver, this);
 	public WebElement getShopNow(){
 		return shopNow;
 	}
-
+  
 }

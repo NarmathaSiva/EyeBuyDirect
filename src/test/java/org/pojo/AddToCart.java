@@ -10,7 +10,6 @@ public class AddToCart extends BaseClass{
 	public AddToCart() {
 PageFactory.initElements(driver, this);	
 }
-
 	@FindBy(linkText="Good Vibrations")
 	private WebElement firstProduct;
 	
