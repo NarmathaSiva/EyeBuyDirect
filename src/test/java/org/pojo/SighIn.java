@@ -26,6 +26,9 @@ PageFactory.initElements(driver, this);
 	@FindBy(xpath="(//button[text()='Sign in'])[2]")
 	private WebElement sighIn1;
 
+	@FindBy(xpath="//a[text()='Shop now']")
+	private WebElement shopNow;
+	
 	public WebElement getPopUp() {
 		return popUp;
 	}
@@ -44,6 +47,9 @@ PageFactory.initElements(driver, this);
 
 	public WebElement getSighIn1() {
 		return sighIn1;
+	}
+	public WebElement getShopNow(){
+		return shopNow;
 	}
 
 }
